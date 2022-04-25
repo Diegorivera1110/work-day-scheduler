@@ -3,8 +3,8 @@ var currentDayEl = document.querySelector("#currentDay");
 var textareaEl = document.querySelectorAll(".description");
 var saveTask = document.querySelectorAll(".saveBtn");
 // var eachHour = document.querySelector(".hour");
-var eachHour = [7, 8, 9, 10, 11, 12, 1, 2, 3, 4];
-var dailyTasks = {};
+
+var dailyTasks = [];
 // var currentHour = moment().hour();
 
 
@@ -26,14 +26,22 @@ var loadSchedule = function() {
 };
 
 var saveSchedule = function() {
-    console.log("click")
+    // console.log("click")
     console.log(this);
-    //   localStorage.setItem("dailyTasks", JSON.stringify(dailyTasks));
+
+    var dailyTasks = document.getElementsByClassName("description").value;
+    
+    localStorage.setItem(".description", JSON.stringify(dailyTasks));
+        
+        alert("Task has been saved");
 };
+
 
 for (var i = 0; i < saveTask.length;  i++) {
     saveTask[i].addEventListener("click", saveSchedule);
+    
 }
+
 
 // 4. color-code timeslots for past, present, and future
 var auditTime = function() {
