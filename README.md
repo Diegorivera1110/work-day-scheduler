@@ -19,3 +19,7 @@ In order to install this application you must clone this repository to your devi
 ## Screenshot
 
 ![Word Day scheduler screenshot](./assets/images/Capture.PNG)
+
+  ## License
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)<br />
+  To read more on the license, [The MIT License](https://opensource.org/licenses/MIT)
