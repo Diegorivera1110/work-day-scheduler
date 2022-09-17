@@ -16,10 +16,11 @@ Live Site URL: https://diegorivera1110.github.io/work-day-scheduler/
 ## Installation
 In order to install this application you must clone this repository to your device or download the ZIP file into an already existing repository. Once that is complete you can then run and debug and use the application from there.
 
+  ## License
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)<br />
+  To read more on the license, [The MIT License](https://opensource.org/licenses/MIT)
+
 ## Screenshot
 
 ![Word Day scheduler screenshot](./assets/images/Capture.PNG)
 
-  ## License
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)<br />
-  To read more on the license, [The MIT License](https://opensource.org/licenses/MIT)
